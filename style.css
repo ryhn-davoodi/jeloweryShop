@@ -1,0 +1,115 @@
+/* general style */
+body {
+  padding: 5rem;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+/* header style */
+.navigation {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 35%;
+  height: 3rem;
+  margin-left: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.link {
+  display: inline-block;
+  width: 5rem;
+}
+.icon-container {
+  display: inline-block;
+  width: 3rem;
+}
+.separator {
+  color: gray;
+  display: inline-block;
+  width: 3rem;
+  font-size: 1.4rem;
+}
+@font-face {
+  font-family: AllertaStencil;
+  src: url(fonts/AllertaStencil-Regular.ttf);
+}
+.logo {
+  font-family: "AllertaStencil";
+  font-size: 35px;
+}
+.logo .first-letter {
+  color: #a18a68;
+}
+/* main style */
+.hero-container {
+  margin-top: 1rem;
+}
+h2,
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+}
+a.right {
+  color: #a18a68;
+  font-size: 1rem;
+  float: right;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 3rem;
+  margin-left: auto;
+
+}
+.item {
+  margin-right: 2rem;
+}
+.item img {
+  width: 100%;
+  height: auto;
+}
+.item:last-child {
+  margin-right: 0rem;
+}
+.price {
+  color: #a18a68;
+}
+/* footer style */
+footer {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: row;
+}
+.footer-links a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+  padding-right: 2rem;
+}
+.newsletter-container input,
+button {
+  background-color: white;
+  border: none;
+}
+.newsletter-container input[type="text"] {
+  width: 300px;
+  height: auto;
+}
+.newsletter-container {
+  border-bottom: 1px solid black;
+  margin-left: auto;
+}
+.newsletter-container button[type="submit"] {
+  float: right;
+}

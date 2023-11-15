@@ -1,0 +1,224 @@
+/* general style */
+body {
+  padding: 5rem;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+/* header style */
+.navigation {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 35%;
+  height: 3rem;
+  margin-left: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.link {
+  display: inline-block;
+  width: 5rem;
+}
+.icon-container {
+  display: inline-block;
+  width: 3rem;
+}
+.separator {
+  color: gray;
+  display: inline-block;
+  width: 3rem;
+  font-size: 1.4rem;
+}
+@font-face {
+  font-family: AllertaStencil;
+  src: url(fonts/AllertaStencil-Regular.ttf);
+}
+.logo {
+  font-family: "AllertaStencil";
+  font-size: 35px;
+}
+.logo .first-letter {
+  color: #a18a68;
+}
+/* product info */
+.product-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+.gallary {
+  width: 10%;
+}
+.gallary img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 0.5rem;
+}
+.product-image {
+  width: 43%;
+}
+.product-image img {
+  width: 100%;
+  height: auto;
+}
+.info-container {
+  width: 43%;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 1rem;
+}
+
+.info-container h3 {
+  font-weight: lighter;
+}
+.price {
+  color: #a18a68;
+  margin-bottom: 3rem;
+}
+.star-rating img {
+  margin-right: 4px;
+}
+.star-rating .star-reviews {
+  color: gray;
+  display: inline-block;
+  margin-left: 1rem;
+  font-size: 0.9rem;
+  position: relative;
+  top: -4px;
+}
+.product-description {
+  color: #707070;
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+}
+.card-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.quantity-btn {
+  background-color: #efefef;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+.quantity-btn button {
+  border: none;
+  height: 100%;
+  background-color: #efefef;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.add-to-card {
+  width: 70%;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 1rem;
+}
+.share-menu {
+  padding: 2rem;
+}
+.share-menu img {
+  margin-right: 1rem;
+}
+.share-menu span {
+  display: inline-block;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  position: relative;
+  top: -4px;
+}
+.tag {
+  line-height: 1.5rem;
+}
+.value {
+  color: #707070;
+}
+
+/* product menu and reviews */
+.product-menu {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5rem;
+  border-bottom: 1px solid #9a9999;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+.menu-item {
+  width: 20%;
+  font-size: 1.4rem;
+  padding-bottom: 2rem;
+  color: gray;
+  margin-left: 2rem;
+  cursor: pointer;
+}
+.active {
+  color: black;
+  border-bottom: 1px solid black;
+}
+/* reviews and review form */
+.review-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.review-list {
+  width: 48%;
+  height: auto;
+}
+.review-title .date,
+.review-body {
+  font-size: 0.9rem;
+  color: #707070;
+}
+.review-form {
+  width: 48%;
+}
+.review-form h3 {
+  font-weight: normal;
+}
+.review-info,
+.label,
+.save-info {
+  font-size: 0.8rem;
+  color: #707070;
+}
+.text-review {
+  border: none;
+  border-bottom: 2px solid gray;
+  width: 100%;
+}
+.name-input,
+.email-input {
+  border: none;
+  border-bottom: 2px solid gray;
+  width: 100%;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+}
+.submit {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  width: 6rem;
+  margin-top: 2rem;
+  height: 2.4rem;
+  border-radius: 4px;
+}
+/* footer style */
